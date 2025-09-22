@@ -1,0 +1,19 @@
+2025-09-22 01:22:51,713 - INFO - Starting augmentation process at 2025-09-22 01:22:51.713441
+2025-09-22 01:22:51,713 - INFO - Parameters: json_path=./demofolder/data/Experiments_DLCSD24_512xy_256z_771p25m_dataset.json, dict_to_read=training, scale_percent=50%
+2025-09-22 01:22:51,714 - INFO - Loaded JSON file with 2 entries
+2025-09-22 01:22:51,714 - INFO - Processing entry 1/2: vista3Dauto_seg_knneX2mm_GTV_512xy_256z_771p25m/DLCS_0001_seg_sh.nii.gz
+2025-09-22 01:24:01,683 - INFO - Original lesion: 2008 voxels, 1240.91 mm³
+2025-09-22 01:24:01,683 - INFO - Shrunk lesion: 1426 voxels, 881.24 mm³
+2025-09-22 01:24:01,683 - INFO - Shrink ratio: 71.02% of original
+2025-09-22 01:24:01,683 - INFO - Augmented and saved: /app/demofolder/output/CaNA_shrinked_50_output/Aug23s50_DLCS_0001_seg_sh.nii.gz
+2025-09-22 01:24:01,683 - INFO - Processing entry 2/2: vista3Dauto_seg_knneX2mm_GTV_512xy_256z_771p25m/DLCS_0002_seg_sh.nii.gz
+2025-09-22 01:24:18,826 - INFO - Original lesion: 1188 voxels, 734.16 mm³
+2025-09-22 01:24:18,826 - INFO - Shrunk lesion: 1188 voxels, 734.16 mm³
+2025-09-22 01:24:18,826 - INFO - Shrink ratio: 100.00% of original
+2025-09-22 01:24:18,826 - INFO - Augmented and saved: /app/demofolder/output/CaNA_shrinked_50_output/Aug23s50_DLCS_0002_seg_sh.nii.gz
+2025-09-22 01:24:18,827 - INFO - Augmentation process completed at 2025-09-22 01:24:18.826947
+2025-09-22 01:24:18,827 - INFO - Total processing time: 0:01:27.113506
+2025-09-22 01:24:18,827 - INFO - Files processed: 2 (Success: 2, Warnings: 0, Errors: 0)
+2025-09-22 01:24:18,827 - INFO - Overall volume change: 1975.07 mm³ → 1615.40 mm³ (81.79%)
+2025-09-22 01:24:18,827 - INFO - Saving combined nodule data to /app/demofolder/output/CaNA_shrinking_50_stats.csv
+2025-09-22 01:24:18,828 - INFO - Saved 3 nodule entries to /app/demofolder/output/CaNA_shrinking_50_stats.csv

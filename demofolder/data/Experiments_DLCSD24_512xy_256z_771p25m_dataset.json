@@ -1,0 +1,5 @@
+{
+    "name": "DLCSD24_512xy_256z_771p25m_dataset",
+    "training": [{"label": "vista3Dauto_seg_knneX2mm_GTV_512xy_256z_771p25m/DLCS_0001_seg_sh.nii.gz","dim": [512,512,256],"spacing": [0.703125,0.703125,1.25]},
+                 {"label": "vista3Dauto_seg_knneX2mm_GTV_512xy_256z_771p25m/DLCS_0002_seg_sh.nii.gz","dim": [512,512,256],"spacing": [0.703125,0.703125,1.25]}]
+}
